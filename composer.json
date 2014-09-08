@@ -1,0 +1,32 @@
+{
+    "name": "starlight36/SimplePHP",
+    "description": "A simple PHP workflow & business rule engine.",
+    "minimum-stability": "dev",
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Max Liu",
+            "email": "starlight36@163.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": { "": "lib/src" }
+    },
+
+    "require": {
+        "php": ">=5.3.8",
+        "monolog/monolog": ">=1.8.0",
+        "symfony/console": "~2.5",
+        "doctrine/orm": "~2.4"
+    },
+
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    }
+
+}
